@@ -1,11 +1,9 @@
-Dining Out
+Dining Out - Fork
 ==========
+This app is a fork of the free software & open-source app Dining Out, Copyright (c) 2013 Pushbit, under the GNU GPL v3 license. This fork (as in custom version) is under the same license.For the moment this fork it has only minimal changes,mosty administrative changes needed to enable further customization.
 
-[![Get it on Google Play][1]][2]
+Link to license:
+https://github.com/pushbit/dining-out/blob/master/COPYING
 
-Having a problem or want to suggest an enhancement? Check the [Issues][3] and create a new one
-if someone hasn't already beaten you to it.
-
-[1]: https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png
-[2]: https://play.google.com/store/apps/details?id=net.sf.diningout
-[3]: https://github.com/pushbit/dining-out/issues
+Original repository source and more info:
+https://github.com/pushbit/dining-out
