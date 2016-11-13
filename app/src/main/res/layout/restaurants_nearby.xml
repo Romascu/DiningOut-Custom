@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/restaurants_nearby_header"/>
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:alpha="0.0"
+        android:visibility="gone"/>
+
+    <ViewStub
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/restaurants_nearby_empty"/>
+
+    <in.srain.cube.views.GridViewWithHeaderAndFooter
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnWidth="@dimen/grid_column_width"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="@dimen/grid_spacing_small"
+        android:verticalSpacing="@dimen/grid_spacing_small"
+        android:choiceMode="singleChoice"
+        android:drawSelectorOnTop="true"
+        android:alpha="0.0"/>
+
+</LinearLayout>
