@@ -82,7 +82,7 @@ public class FriendColorService extends IntentService {
         }
         c.close();
     }
-
+//old code
     private void updateColor(long id, String lookupKey, long androidId) {
         if (lookupKey == null || androidId <= 0) {
             return;
