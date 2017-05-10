@@ -74,6 +74,7 @@ public class AppApplication extends VersionedApplication {
             migrateAppPrefs();
         }
         TokenService.refreshTokens(this);
+        //old code
         if (oldCode < 100) { // delete pre-1.0.0 restaurant images
             File file = getExternalFilesDir(null);
             if (file != null) {
