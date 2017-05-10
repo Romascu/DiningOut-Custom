@@ -29,7 +29,7 @@ import net.sf.diningout.content.SyncAdapter;
 public class SyncService extends Service {
     private static final Object LOCK = new Object();
     private static SyncAdapter sAdapter;
-
+//needs better solution
     @Override
     public void onCreate() {
         super.onCreate();
